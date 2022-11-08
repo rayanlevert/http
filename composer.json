@@ -1,0 +1,36 @@
+{
+    "name": "dis-dev/http",
+    "description": "Simples fonctionnalités permettant de gérer la couche HTTP d'une application",
+    "type": "library",
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DisDev\\Http\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DisDev\\Http\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rayan",
+            "email": "rlevert@group-dis.com"
+        }
+    ],
+    "repositories": {
+        "2664": {
+            "type": "composer",
+            "url": "https://git.dis-hosting.fr/api/v4/group/2664/-/packages/composer/"
+        }
+    },
+    "config": {
+        "gitlab-domains": ["git.dis-hosting.fr"]
+    }
+}
