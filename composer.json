@@ -1,9 +1,9 @@
 {
-    "name": "dis-dev/http",
-    "description": "Simples fonctionnalités permettant de gérer la couche HTTP d'une application",
+    "name": "rayanlevert/http",
+    "description": "Simple functionalites handling HTTP (codes and methods)",
     "type": "library",
     "require": {
-        "php": "^8.1"
+        "php": ">=8.1"
     },
     "autoload": {
         "psr-4": {
@@ -12,17 +12,8 @@
     },
     "authors": [
         {
-            "name": "Rayan",
-            "email": "rlevert@group-dis.com"
+            "name": "Rayan Levert",
+            "email": "rayanlevert@msn.com"
         }
-    ],
-    "repositories": {
-        "2664": {
-            "type": "composer",
-            "url": "https://git.dis-hosting.fr/api/v4/group/2664/-/packages/composer/"
-        }
-    },
-    "config": {
-        "gitlab-domains": ["git.dis-hosting.fr"]
-    }
+    ]
 }

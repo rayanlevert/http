@@ -1,28 +1,28 @@
 <?php
 
-namespace DisDev\Http;
+namespace RayanLevert\Http;
 
 /**
- * Exceptions qui relèvent d'un code HTTP en particulier (via l'enum DisDev\Http\Codes)
+ * Exceptions from/by an HTTP resource can be used to inform the HTTP code (from RayanLevert\Http\Codes)
  */
 class Exception extends \Exception
 {
     /**
-     * Initialise l'exception
+     * Initializes the exception
      *
-     * @param string $message Message de l'exception
-     * @param \DisDev\Http\Codes $oHttpCode Code HTTP qui est relevé de l'exception
+     * @param string $message Message
+     * @param Codes $httpCode HTTP Code used as the exception code
      */
-    public function __construct(string $message, protected readonly Codes $oHttpCode)
+    public function __construct(string $message, protected readonly Codes $httpCode)
     {
-        parent::__construct($message, $oHttpCode->value);
+        parent::__construct($message, $httpCode->value);
     }
 
     /**
-     * Retourne l'instance DisDev\Http\Codes levée par l'exception
+     * Returns RayanLevert\Http\Codes instance thrown by the exception
      */
     public function getHttpCode(): Codes
     {
-        return $this->oHttpCode;
+        return $this->httpCode;
     }
 }

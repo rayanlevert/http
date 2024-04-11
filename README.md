@@ -1,14 +1,14 @@
-# Simples fonctionnalités permettant de gérer la couche HTTP d'une application
+# Simple functionalites handling HTTP (codes and methods)
 
-> Se référer à php-fig pour l'implémentation https://github.com/php-fig/http-message-util
+> Refer to php-fig https://github.com/php-fig/http-message-util
 
-## DisDev\Http\Codes
+## RayanLevert\Http\Codes
 
-Énumération PHP contenant tous les codes HTTP [DisDev\Http\Codes](src/Codes.php)
+PHP enumeration with HTTP codes [RayanLevert\Http\Codes](src/Codes.php)
 
 ## DisDev\Http\Methods
 
-Énumération PHP contenant tous les méthodes HTTP
+PHP enumeration with HTTP methods
 
 ```php
 enum Methods: string
@@ -25,14 +25,14 @@ enum Methods: string
     case CONNECT = 'CONNECT';
 }
 
-\DisDev\Http\Methods::HEAD // 'HEAD'
+\RayanLevert\Http\Methods::HEAD // 'HEAD'
 ```
 
-## DisDev\Http\Exception
+## RayanLevert\Http\Exception
 
-Exception PHP qui doit être initialisée avec un code HTTP via l'enumération `DisDev\Http\Codes`
+PHP exception initialized with an HTTP code with `RayanLevert\Http\Codes`
 
 ```php
-// Erreur HTTP 401
-$oException = new \DisDev\Http\Exception('non autorisé', \DisDev\Http\Codes::CLIENT_UNAUTHORIZED)
+// HTTP 401 error
+$oException = new \DisDev\Http\Exception('Unauthorized', \RayanLevert\Http\Codes::CLIENT_UNAUTHORIZED)
 ```

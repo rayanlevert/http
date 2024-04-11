@@ -1,9 +1,9 @@
 <?php
 
-namespace DisDev\Http;
+namespace RayanLevert\Http;
 
 /**
- * Définie les codes HTTP les plus courants via une énumeration
+ * HTTP codes defined from an enumeration
  *
  * @see https://github.com/php-fig/http-message-util
  */

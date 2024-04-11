@@ -1,9 +1,9 @@
 <?php
 
-namespace DisDev\Http;
+namespace RayanLevert\Http;
 
 /**
- * Définie les méthodes HTTP via une énumeration
+ * HTTP methods defined from an enumeration
  *
  * @see https://github.com/php-fig/http-message-util
  */
