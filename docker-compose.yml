@@ -10,4 +10,3 @@ services:
       - "4432:443"
     volumes:
       - .:/app
-      - ~/.config/composer/auth.json:/app/auth.json
