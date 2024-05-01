@@ -1,5 +1,9 @@
 ## Simple functionalites handling HTTP (codes and methods) via PHP enumerations (from 8.1)
 
+[![Packagist Version](https://img.shields.io/packagist/v/rayanlevert/http)](https://packagist.org/packages/rayanlevert/http)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/rayanlevert/http)](https://packagist.org/packages/rayanlevert/http)
+[![codecov](https://codecov.io/gh/rayanlevert/http/branch/main/graph/badge.svg)](https://codecov.io/gh/rayanlevert/http)
+
 > Refer to php-fig https://github.com/php-fig/http-message-util
 
 ### RayanLevert\Http\Codes
