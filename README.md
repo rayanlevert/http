@@ -1,4 +1,4 @@
-# Simple functionalites handling HTTP (codes and methods)
+# Simple functionalites handling HTTP (codes and methods) via PHP enumerations (from 8.1)
 
 > Refer to php-fig https://github.com/php-fig/http-message-util
 
