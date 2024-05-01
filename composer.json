@@ -7,7 +7,12 @@
     },
     "autoload": {
         "psr-4": {
-            "RayanLevert\\Http\\": "src/"
+            "RayanLevert\\Http\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RayanLevert\\Http\\Tests\\": "tests"
         }
     },
     "authors": [
@@ -15,5 +20,8 @@
             "name": "Rayan Levert",
             "email": "rayanlevert@msn.com"
         }
-    ]
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
 }
