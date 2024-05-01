@@ -1,12 +1,12 @@
-# Simple functionalites handling HTTP (codes and methods) via PHP enumerations (from 8.1)
+## Simple functionalites handling HTTP (codes and methods) via PHP enumerations (from 8.1)
 
 > Refer to php-fig https://github.com/php-fig/http-message-util
 
-## RayanLevert\Http\Codes
+### RayanLevert\Http\Codes
 
 PHP enumeration with HTTP codes [RayanLevert\Http\Codes](src/Codes.php)
 
-## DisDev\Http\Methods
+### DisDev\Http\Methods
 
 PHP enumeration with HTTP methods
 
@@ -28,7 +28,7 @@ enum Methods: string
 \RayanLevert\Http\Methods::HEAD // 'HEAD'
 ```
 
-## RayanLevert\Http\Exception
+### RayanLevert\Http\Exception
 
 PHP exception initialized with an HTTP code with `RayanLevert\Http\Codes`
 
