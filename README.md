@@ -38,5 +38,5 @@ PHP exception initialized with an HTTP code with `RayanLevert\Http\Codes`
 
 ```php
 // HTTP 401 error
-$oException = new \DisDev\Http\Exception('Unauthorized', \RayanLevert\Http\Codes::CLIENT_UNAUTHORIZED)
+$oException = new \RayanLevert\Http\Exception('Unauthorized', \RayanLevert\Http\Codes::CLIENT_UNAUTHORIZED)
 ```
